@@ -23,13 +23,14 @@ DEPENDS += "lzop-native bc-native"
 #     
 SRCBRANCH = "4.1-1.0.x-imx"
 #
-# This rev is 3 behind the tip.
+# This rev. is 3 behind the tip.  7/7/18 not 3 behind but more?
+#
 # The 3 changes are for DSI display
 ## 
-SRCREV = "fa571312b4271e368ca99ffcdf7992247d534e55"
+# SRCREV = "fa571312b4271e368ca99ffcdf7992247d534e55"
 #
-##      5/5/2017 tip
-##       a543d1bd884028bed97c06ae4087e051a9176499
+##  warp7    5/5/2017 tip
+SRCREV = "a543d1bd884028bed97c06ae4087e051a9176499"
 #
 SRC_URI = "git://github.com/WaRP7/linux-fslc.git;branch=${SRCBRANCH} \
            file://defconfig"    
