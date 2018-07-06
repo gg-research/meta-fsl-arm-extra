@@ -25,7 +25,10 @@ SRCBRANCH = "4.1-1.0.x-imx"
 #
 # This rev. is 3 behind the tip.  7/7/18 not 3 behind but more?
 #
-# The 3 changes are for DSI display
+# The 3 changes are for DSI display - this is when comparing freescale and warp7 branches
+#
+# this commit seems to be on the freescale branch 
+# https://github.com/Freescale/linux-fslc/commit/fa571312b4271e368ca99ffcdf7992247d534e55
 ## 
 # SRCREV = "fa571312b4271e368ca99ffcdf7992247d534e55"
 #
