@@ -33,12 +33,20 @@ SRCBRANCH = "4.1-1.0.x-imx"
 # SRCREV = "fa571312b4271e368ca99ffcdf7992247d534e55"
 #
 ##  warp7    5/5/2017 tip
-SRCREV = "a543d1bd884028bed97c06ae4087e051a9176499"
+#SRCREV = "a543d1bd884028bed97c06ae4087e051a9176499"
+
+# gg-research tip
+SRCREV = "21be0bccf41140118f86f796152eabb355d2f084"
 
 # github.com/freescale/linux-fslc tip 
 # SRCREV = "c3518e1f0743b54bdf685fafb3d6e5d6354698f2"
 #
-SRC_URI = "git://github.com/WaRP7/linux-fslc.git;branch=${SRCBRANCH} \
+#SRC_URI = "git://github.com/WaRP7/linux-fslc.git;branch=${SRCBRANCH} \
+#           file://defconfig"    
+#
+# 1. some fixes for compile errors/warnings here
+# 2. now uses daiane dts file
+SRC_URI = "git://github.com/gg-research/linux-fslc.git;branch=${SRCBRANCH} \
            file://defconfig"    
 # SRC_URI = "git://github.com/freescale/linux-fslc.git;branch=${SRCBRANCH} \
 #            file://defconfig"    
