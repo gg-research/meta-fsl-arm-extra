@@ -35,8 +35,11 @@ SRCBRANCH = "4.1-1.0.x-imx"
 ##  warp7    5/5/2017 tip
 #SRCREV = "a543d1bd884028bed97c06ae4087e051a9176499"
 
-# gg-research tip
-SRCREV = "21be0bccf41140118f86f796152eabb355d2f084"
+# gg-research tip 
+# 
+# Ignore the rev - we should be ok
+#
+## SRCREV = "21be0bccf41140118f86f796152eabb355d2f084"
 
 # github.com/freescale/linux-fslc tip 
 # SRCREV = "c3518e1f0743b54bdf685fafb3d6e5d6354698f2"
