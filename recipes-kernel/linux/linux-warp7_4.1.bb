@@ -48,7 +48,8 @@ SRCBRANCH = "4.1-1.0.x-imx"
 #SRCREV = "19d7bc872371e1be08bd1505a2acf14ea5c8ca90"
 #SRCREV = "9396a7ec6e3e10d6c62e93931e6ee952e4f6a113"
 #SRCREV = "35d8470650501d14d318ac08b7e001d61ba7cd92"
-SRCREV = "830840ba4ef1d209de2b4bfc7e660114a3a9f2ed"
+#SRCREV = "830840ba4ef1d209de2b4bfc7e660114a3a9f2ed"
+SRCREV = "c84cded19de6cc4de90b83edc34786cc0dd8fcd6"
 
 # github.com/freescale/linux-fslc tip 
 # SRCREV = "c3518e1f0743b54bdf685fafb3d6e5d6354698f2"
